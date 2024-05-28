@@ -48,3 +48,5 @@ To use the MH.AutoRegistrable library, follow these steps:
 
     app.Run();
     ```
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
