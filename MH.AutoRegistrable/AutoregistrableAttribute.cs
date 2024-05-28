@@ -2,10 +2,16 @@
 
 namespace MH.AutoRegistrable
 {
-    public class AutoregistrableAttribute: Attribute
-    {   
-        public required Type ServiceType { get; set; }
-        public required Type ImplementationType { get; set; }
-        public required ServiceLifetime ServiceLifetime { get; set; }
+    [AttributeUsage(AttributeTargets.Class)]
+    public class AutoRegistrableAttribute : Attribute
+    {
+        public ServiceLifetime ServiceLifetime { get; set; }
+        public Type[] ServiceTypes { get; set; }
+
+        public AutoRegistrableAttribute(ServiceLifetime serviceLifetime, params Type[] serviceTypes)
+        {
+            this.ServiceLifetime = serviceLifetime;
+            this.ServiceTypes = serviceTypes;
+        }
     }
 }

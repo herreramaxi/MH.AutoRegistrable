@@ -2,6 +2,7 @@ using WebApplicationExample;
 using MH.AutoRegistrable;
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddAutoRegistrableServices(typeof(IWebApiMarker).Assembly);
 
 var app = builder.Build();

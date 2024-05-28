@@ -6,8 +6,8 @@ namespace WebApplicationExample
     {
         WeatherForecast[] GetWeatherForecast();
     }
-
-    [Autoregistrable(ServiceType = typeof(IWeatherForecastService), ImplementationType = typeof(WeatherForecastService), ServiceLifetime = ServiceLifetime.Scoped)]
+        
+    [AutoRegistrable(ServiceLifetime.Scoped,  typeof(IWeatherForecastService))]
     public class WeatherForecastService : IWeatherForecastService
     {
         public WeatherForecast[] GetWeatherForecast()
