@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <Description>MH.AutoRegistrable makes it easy to register dependencies into the dotnet built-in service container by scanning assemblies for types marked with a custom attribute.</Description>
     <PackageId>MH.AutoRegistrable</PackageId>
-    <Version>1.0.4</Version>
+    <Version>1.0.6</Version>
     <Authors>Maximiliano Herrera</Authors>
     <PackageTags>DI, AutoRegistrable, Dependencies, Register, .NET dependency injection, IServiceProvider, built-in</PackageTags>
     <PackageProjectUrl>https://github.com/herreramaxi/MH.AutoRegistrable</PackageProjectUrl>
