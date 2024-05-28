@@ -4,8 +4,9 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Description>MH.AutoRegistrable makes it easy to register dependencies into the built-in .NET IServiceProvider by scanning assemblies for types marked with a custom attribute.</Description>
     <PackageId>MH.AutoRegistrable</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Authors>Maximiliano Herrera</Authors>
     <PackageTags>DI, AutoRegistrable, Dependencies, Reflection</PackageTags>
   </PropertyGroup>
