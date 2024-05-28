@@ -8,7 +8,8 @@
     <PackageId>MH.AutoRegistrable</PackageId>
     <Version>1.0.2</Version>
     <Authors>Maximiliano Herrera</Authors>
-    <PackageTags>DI, AutoRegistrable, Dependencies, Reflection</PackageTags>
+    <PackageTags>DI, AutoRegistrable, Dependencies, Register, .NET dependency injection, IServiceProvider, built-in</PackageTags>
+    <PackageProjectUrl>https://github.com/herreramaxi/MH.AutoRegistrable</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
